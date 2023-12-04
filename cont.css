@@ -1,0 +1,73 @@
+#NavBar{
+    margin-left: -1.5vh;
+    margin-top: -2.5vh;
+    height: 10vh;
+    width: 206vh;
+    background-color: black;
+    text-decoration: none;
+}
+#NavBar h1{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3.5vh;
+    text-decoration: none;
+    
+}
+#NavBar ul li{
+    color: whitesmoke;
+    float: left;
+    list-style: none;
+    margin-left: 75vh;
+    margin-right: -65vh;
+    margin-top: 3.5vh;
+    text-decoration: none;
+}
+#NavBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#NavBar ul li a:hover{
+    color: gray;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#Caixa{
+margin-top: 20vh;
+margin-left: 47vh;
+height: 40vh;
+width: 100vh;
+background-color: gray;
+border-width: 1vh;
+border-style: solid;
+border-color: black;
+}
+
+.SocialMedia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vh;
+    margin-top: 17vh;
+}
+.SocialMedia img{
+    margin-left: 1vh;
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    padding: 10vh;
+    text-align: center;
+    margin-top: 15vh;
+    margin-left: -1.5vh;
+    height: 10vh;
+    width: 186.5vh;
+    background-color: black;
+    color: whitesmoke;
+
+}
+footer h1{
+    margin-left: 20vh;
+}

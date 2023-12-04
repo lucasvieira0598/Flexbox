@@ -1,0 +1,133 @@
+#NavBar{
+    margin-left: -1.5vh;
+    margin-top: -2.5vh;
+    height: 10vh;
+    width: 206vh;
+    background-color: black;
+    text-decoration: none;
+}
+#NavBar h1{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 3.5vh;
+    text-decoration: none;
+    
+}
+#NavBar ul li{
+    color: whitesmoke;
+    float: left;
+    list-style: none;
+    margin-left: 75vh;
+    margin-right: -65vh;
+    margin-top: 3.5vh;
+    text-decoration: none;
+}
+#NavBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#NavBar ul li a:hover{
+    color: gray;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#PortaCard1{
+    margin-top: 5vh;
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#PortaCard1 h1{
+    text-align: center;
+}
+#PortaCard1 p{
+    text-align: center;
+}
+#PortaCard1 img{
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.card1{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    height: 40vh;
+    width: 30vh;
+    background-color: gray;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: black;
+
+}
+.card2{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 50vh;
+    height: 40vh;
+    width: 30vh;
+    background-color: gray;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: black;
+
+}
+#PortaCard2{
+    margin-top: -50vh;
+    height: 50vh;
+    margin-left: 50%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#PortaCard2 h1{
+    margin-top: -0.5vh;
+    text-align: center;
+}
+#PortaCard2 p{
+    margin-top: 5vh;
+    text-align: center;
+}
+.card3{
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 25vh;
+    height: 20vh;
+    width: 40vh;
+    background-color: gray;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: black;
+
+}
+.card4{
+    position: absolute;
+    margin-top: 27vh;
+    margin-left: 25vh;
+    height: 20vh;
+    width: 40vh;
+    background-color: gray;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: black;
+
+}
+footer{
+    padding: 10vh;
+    text-align: center;
+    margin-top: 15vh;
+    margin-left: -1.5vh;
+    height: 10vh;
+    width: 186.5vh;
+    background-color: black;
+    color: whitesmoke;
+
+}
+footer h1{
+    margin-left: 20vh;
+}
